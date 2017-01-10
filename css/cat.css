@@ -2,3 +2,17 @@ body {
   text-align: center;
   background-color: pink;
 }
+
+.dark-shown {
+  display:none;
+}
+
+.dark-theme {
+  background-color: purple;
+  color: white;
+}
+
+.light-theme {
+  text-align: center;
+  background-color: pink;
+}

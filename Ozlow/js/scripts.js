@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $('.light-shown').click(function(){
+    $('body').removeClass();
+    $('body').addClass('dark-theme');
+    $('.light-shown').fadeOut();
+    $('.dark-shown').fadeIn();
+  });
+  $('.dark-shown').click(function(){
+    $('body').removeClass();
+    $('body').addClass('light-theme');
+    $('.light-shown').fadeIn();
+    $('.dark-shown').fadeOut();
+  });
+});
